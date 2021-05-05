@@ -18,8 +18,8 @@ body {
 .grid-item {
     display: grid;
     background-color:white;
-    width: 12px;
-    height: 12px;
+    width: 32px;
+    height: 32px;
 }
 
 .colorBlack {

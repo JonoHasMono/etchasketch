@@ -100,4 +100,4 @@ function makeGrid(rows, columns) {
   };
 
   
-  makeGrid(80, 157);
+  makeGrid(32, 32);
