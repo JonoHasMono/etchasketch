@@ -9,17 +9,20 @@ body {
 
 #grid {
     display: grid;
+    position: absolute;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     padding: 0px;
     margin: 1% 50% 0% 0.5%;
+    top: 10%;
+    left: 7%;
 }
 
 .grid-item {
     display: grid;
     background-color:white;
-    width: 32px;
-    height: 32px;
+    width: 16px;
+    height: 16px;
 }
 
 .colorBlack {

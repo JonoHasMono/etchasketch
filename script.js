@@ -1,6 +1,8 @@
 const gridContainer = document.querySelector(`#grid`)
 const colorPalette = document.querySelector(`#palette`)
 
+let rowNumber = 1;
+
 let mouseDown = 0;
 document.body.onmousedown = function() { 
   mouseDown = 1;
@@ -100,4 +102,4 @@ function makeGrid(rows, columns) {
   };
 
   
-  makeGrid(32, 32);
+  makeGrid(50, 100);
